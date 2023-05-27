@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Folito';
+    src: local('Folito Bold'), local('Folito-Bold'),
+        url('Folito-Bold.woff2') format('woff2'),
+        url('Folito-Bold.woff') format('woff'),
+        url('Folito-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
