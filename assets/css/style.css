@@ -1495,7 +1495,7 @@ body .body-overlay {
     font-size: 28px;
     line-height: 1.2;
     margin-bottom: 20px;
-    animation: slideIn 1.5s ease-in-out forwards;
+    animation: slideInLeft;
 }
 .blog-item .blog-item-content h1 a {
     color: #fff;
@@ -1504,7 +1504,7 @@ body .body-overlay {
     background-repeat: no-repeat;
     background-size: 0 0.0625em;
     background-position: 0 95%;
-    animation: slideIn 1.5s ease-in-out forwards;
+    animation: slideInLeft;
     transition: .25s;
 }
 .blog-item .blog-item-content h1 a:hover {
@@ -2003,14 +2003,6 @@ body .body-overlay {
     }
 }
 
-@keyframes slideIn {
-    0% {
-      transform: translateX(500px) scale(.2);
-    }
-    100% {
-      transform: translateX(0px) scale(1);
-    }
-  }
   
   @keyframes slideUp {
     0% {
